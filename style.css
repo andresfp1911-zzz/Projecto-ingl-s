@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    color:#4170ef;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header_title{
+    display:flex;
+    align-items:center;
+}
+.header_nav{
+    display:flex;
+    align-items:center;
+    color:black;
+    font-family:"Open Sans";
+}
+li{
+    list-style-type:none;
+}
+.main_text_link{
+    padding:10px;
+    background-color: #4170ef;
+    width: 20vw;
+    border-radius: 10px;
+}
+img{
+    width:40vw;
+    border-radius: 20px;
+    display: inline-block;
+}
+.main_section{
+    display:flex;
+}
+.section_container_list{
+    display:flex;
+    gap:20px;
+}
+.container_list_item{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #4170ef;
+    border-radius: 20px;
+}
